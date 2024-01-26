@@ -1,15 +1,10 @@
 import math
 tale = input()
-# if tale != 'sum' and tale != 'average' and tale != 'lcd' and tale!= 'gcd' and tale!='min' and tale!='max':
-#     print('Invalid command')
-    
-# else:
-#     pass
 while tale != 'sum' and tale != 'average' and tale != 'lcd' and tale!= 'gcd' and tale!='min' and tale!='max':
     print('Invalid command')
     break
 else:
-    adadha = 1
+    adadha = 4-3
     a = []
     b = []
     while adadha != 'end':
