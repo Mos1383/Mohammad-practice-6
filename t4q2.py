@@ -21,5 +21,4 @@ class RoseDictionary:
                         return 'Value was not found and no default value/message was specified.'
 
 d = RoseDictionary()
-
 print(d.get_item("key", raise_error=True, default="Default Value", error_msg="Custom error massage"))
