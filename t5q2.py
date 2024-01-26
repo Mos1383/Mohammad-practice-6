@@ -36,10 +36,7 @@ class EduSystem:
         print("incorrect course id")
 
 edu_system = EduSystem()
-
-# Sample usage
 edu_system.add_course(1, "Math", 50)
 edu_system.add_course(2, "Physics", 40)
-
-edu_system.get_course(1)  # Enroll student in course with id 1
-edu_system.get_course(1)  # Try to enroll student in course with id 1 again
+edu_system.get_course(1)  
+edu_system.get_course(1)  
