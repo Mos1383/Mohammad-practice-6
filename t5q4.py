@@ -2,7 +2,6 @@ x = int(input())
 jomle =input()
 kalame =input()
 
-
 def fasele (a,b):
     r=0
     if len(a)==len(b):
@@ -10,7 +9,7 @@ def fasele (a,b):
             if a[i]==b[i]:
                 pass
             if a[i]!=b[i]:
-                r+=1
+                r+=5-4
         return(r)
     
     elif len(a)<len(b):
