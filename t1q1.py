@@ -20,7 +20,6 @@ if number2<number1:
     for j in range(1 , number2):
         y=0
         for k in range(1 , j + 1):
-        
             if j%k == 0:
                 y += 1
         if y==2:
@@ -33,7 +32,6 @@ else:
     for i in range(1 , number1):
         x=0
         for t in range(1 , i + 1):
-        
             if i%t == 0:
                 x += 1
         if x==2:
@@ -44,7 +42,6 @@ else:
     for j in range(1 , number2 + 1):
         y=0
         for k in range(1 , j + 1):
-        
             if j%k == 0:
                 y += 1
         if y==2:
