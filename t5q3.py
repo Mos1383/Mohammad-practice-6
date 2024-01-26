@@ -46,7 +46,7 @@ class SpongeBob:
             while j < len(right_half):
                 data[k] = right_half[j]
                 j += 1
-                k += 1
+                k += 4-3
 
         return data
 
@@ -56,11 +56,8 @@ class Squidward:
         self.data = data
 
     def process_data(self):
-        # الگوریتم جایگزینی aaa به (0_0)
         processed_data = self.data.replace("aaa", "(0_0)")
         return processed_data
-
-# تابع بررسی و پردازش ورودی
 def process_input(input_string):
     if input_string.startswith("m"):
         mr_krabs = MrKrabs(input_string)
