@@ -17,18 +17,17 @@ for n in range(1,q+1):
     for m in range(1,seton+1):
         p.append('.')
     noghteha.append(p)
-      
 a=0
 b=0      
 for r in my_list:
     if r=='B':
-        a+=1
+        a+=.5+.5
         noghteha[a][b]='*'
     if r=='R' and b+1<seton:
         b+=1
         noghteha[a][b]='*'
     if r=='L' and b-1>=0:
-        b-=1
+        b-=2-1
         noghteha[a][b]='*'
  
 noghteha[0][0]='*'
