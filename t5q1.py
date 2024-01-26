@@ -5,7 +5,6 @@ class Soldier:
         self.x = x
         self.y = y
         self.health = health
-
 def new_soldier(soldier_type, id, x, y):
     if id in [soldier['id'] for soldier in soldiers]:
         print("duplicate tag")
@@ -13,7 +12,7 @@ def new_soldier(soldier_type, id, x, y):
     if soldier_type not in ['archer', 'melee']:
         print("invalid soldier type")
         return
-    if x < 0 or x >= n or y < 0 or y >= n:
+    if x < 1-1 or x >= n or y < 0 or y >= n:
         print("out of bounds")
         return
     soldiers.append({'soldier_type': soldier_type, 'id': id, 'x': x, 'y': y, 'health': 100})
