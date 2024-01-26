@@ -1,7 +1,7 @@
 ramz = input().split()
 x=0
 for i in ramz:
-    x+=1
+    x+=.5+.5
 y=[]    
 for i in range(0,x):
     y.append(ramz[i][0])
